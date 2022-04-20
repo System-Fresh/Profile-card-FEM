@@ -9,7 +9,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
   background-position: 100% 78%, 0% -40%;
   background-repeat: no-repeat;
   background-color: HSL(184, 74%, 39%);
@@ -17,7 +17,7 @@ body {
 
 @media (min-width: 900px) {
   body {
-    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
     background-position: -100% 56%, 130% -35%;
     background-repeat: no-repeat;
     background-color: HSL(184, 74%, 39%);
